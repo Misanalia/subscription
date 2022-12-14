@@ -1,0 +1,426 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: P1, server: 103.21.244.134, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P2, server: 188.114.99.16, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P3, server: 108.162.198.192, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P4, server: 108.162.198.127, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P5, server: 103.21.244.35, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P6, server: 103.21.244.117, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P7, server: 172.67.206.253, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P8, server: 172.66.0.168, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P9, server: 172.64.88.165, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P10, server: 172.67.252.164, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P11, server: 172.67.226.235, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P12, server: 108.162.192.144, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P13, server: 103.21.244.160, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P14, server: 172.67.188.228, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P15, server: 188.114.99.210, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P16, server: 103.21.244.138, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P17, server: 103.21.244.126, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P18, server: 190.93.244.158, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P19, server: 162.159.128.143, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P20, server: 103.21.244.56, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P21, server: 173.245.49.228, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P22, server: 162.159.58.2, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P23, server: 103.21.244.120, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P24, server: 103.21.244.37, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P25, server: 172.67.155.94, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P26, server: 103.21.244.7, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P27, server: 108.162.194.112, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P28, server: 190.93.244.179, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P29, server: 172.67.174.170, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P30, server: 173.245.49.244, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P31, server: 108.162.195.117, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P32, server: 172.67.71.84, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P33, server: 103.21.244.155, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P34, server: 103.21.244.18, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P35, server: 103.21.244.54, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P36, server: 103.21.244.40, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P37, server: 188.114.96.35, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P38, server: 172.67.255.180, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P39, server: 198.41.220.160, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P40, server: 172.67.246.40, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P41, server: 108.162.196.240, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P42, server: 103.21.244.199, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P43, server: 103.21.244.189, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P44, server: 173.245.49.129, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P45, server: 103.21.244.179, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P46, server: 103.21.244.142, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P47, server: 108.162.196.125, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P48, server: 103.21.244.122, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P49, server: 141.101.115.168, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P50, server: 103.21.244.170, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P51, server: 108.162.193.127, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P52, server: 103.21.244.105, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P53, server: 108.162.198.251, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P54, server: 103.21.244.221, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P55, server: 173.245.49.216, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P56, server: 103.21.244.208, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P57, server: 103.21.244.98, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P58, server: 108.162.198.144, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P59, server: 103.21.244.86, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P60, server: 172.67.106.244, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P61, server: 173.245.49.168, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P62, server: 108.162.193.89, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P63, server: 103.21.244.211, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P64, server: 108.162.198.104, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P65, server: 103.21.244.47, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P66, server: 108.162.194.0, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P67, server: 103.21.244.21, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P68, server: 173.245.49.156, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P69, server: 198.41.204.200, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P70, server: 103.21.244.147, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P71, server: 108.162.194.222, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P72, server: 172.67.57.90, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P73, server: 172.64.152.18, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P74, server: 172.67.203.242, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P75, server: 103.21.244.191, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P76, server: 172.67.147.74, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P77, server: 103.21.244.235, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P78, server: 108.162.198.97, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P79, server: 172.64.93.209, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P80, server: 198.41.208.246, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P81, server: 108.162.196.2, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P82, server: 108.162.192.150, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P83, server: 173.245.49.251, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P84, server: 190.93.245.14, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P85, server: 172.67.93.243, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P86, server: 103.21.244.150, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P87, server: 103.21.244.14, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P88, server: 108.162.192.75, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P89, server: 198.41.222.200, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P90, server: 173.245.49.45, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P91, server: 173.245.49.103, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P92, server: 173.245.49.109, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P93, server: 103.21.244.148, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P94, server: 173.245.59.58, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P95, server: 103.21.244.234, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P96, server: 172.67.107.20, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P97, server: 162.159.49.243, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P98, server: 198.41.204.66, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+  - {name: P99, server: 108.162.198.24, port: 443, type: vmess, uuid: 526974ef-6e7d-4009-9698-ea01da770007, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /526974ef-6e7d-4009-9698-ea01da770007, headers: {Host: privatecloud.life}}, udp: true}
+proxy-groups:
+  - name: 🔰 节点选择
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+      - ♻️ 自动选择
+      - ⚖️ 负载均衡-散列-全局
+      - P1
+      - P2
+      - P3
+      - P4
+      - P5
+      - P6
+      - P7
+      - P8
+      - P9
+      - P10
+      - P11
+      - P12
+      - P13
+      - P14
+      - P15
+      - P16
+      - P17
+      - P18
+      - P19
+      - P20
+      - P21
+      - P22
+      - P23
+      - P24
+      - P25
+      - P26
+      - P27
+      - P28
+      - P29
+      - P30
+      - P31
+      - P32
+      - P33
+      - P34
+      - P35
+      - P36
+      - P37
+      - P38
+      - P39
+      - P40
+      - P41
+      - P42
+      - P43
+      - P44
+      - P45
+      - P46
+      - P47
+      - P48
+      - P49
+      - P50
+      - P51
+      - P52
+      - P53
+      - P54
+      - P55
+      - P56
+      - P57
+      - P58
+      - P59
+      - P60
+      - P61
+      - P62
+      - P63
+      - P64
+      - P65
+      - P66
+      - P67
+      - P68
+      - P69
+      - P70
+      - P71
+      - P72
+      - P73
+      - P74
+      - P75
+      - P76
+      - P77
+      - P78
+      - P79
+      - P80
+      - P81
+      - P82
+      - P83
+      - P84
+      - P85
+      - P86
+      - P87
+      - P88
+      - P89
+      - P90
+      - P91
+      - P92
+      - P93
+      - P94
+      - P95
+      - P96
+      - P97
+      - P98
+      - P99
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - REJECT
+      - DIRECT
+      - P1
+      - P2
+      - P3
+      - P4
+      - P5
+      - P6
+      - P7
+      - P8
+      - P9
+      - P10
+      - P11
+      - P12
+      - P13
+      - P14
+      - P15
+      - P16
+      - P17
+      - P18
+      - P19
+      - P20
+      - P21
+      - P22
+      - P23
+      - P24
+      - P25
+      - P26
+      - P27
+      - P28
+      - P29
+      - P30
+      - P31
+      - P32
+      - P33
+      - P34
+      - P35
+      - P36
+      - P37
+      - P38
+      - P39
+      - P40
+      - P41
+      - P42
+      - P43
+      - P44
+      - P45
+      - P46
+      - P47
+      - P48
+      - P49
+      - P50
+      - P51
+      - P52
+      - P53
+      - P54
+      - P55
+      - P56
+      - P57
+      - P58
+      - P59
+      - P60
+      - P61
+      - P62
+      - P63
+      - P64
+      - P65
+      - P66
+      - P67
+      - P68
+      - P69
+      - P70
+      - P71
+      - P72
+      - P73
+      - P74
+      - P75
+      - P76
+      - P77
+      - P78
+      - P79
+      - P80
+      - P81
+      - P82
+      - P83
+      - P84
+      - P85
+      - P86
+      - P87
+      - P88
+      - P89
+      - P90
+      - P91
+      - P92
+      - P93
+      - P94
+      - P95
+      - P96
+      - P97
+      - P98
+      - P99
+  - name: ⚖️ 负载均衡-散列-全局
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: consistent-hashing
+    proxies:
+      - P1
+      - P2
+      - P3
+      - P4
+      - P5
+      - P6
+      - P7
+      - P8
+      - P9
+      - P10
+      - P11
+      - P12
+      - P13
+      - P14
+      - P15
+      - P16
+      - P17
+      - P18
+      - P19
+      - P20
+      - P21
+      - P22
+      - P23
+      - P24
+      - P25
+      - P26
+      - P27
+      - P28
+      - P29
+      - P30
+      - P31
+      - P32
+      - P33
+      - P34
+      - P35
+      - P36
+      - P37
+      - P38
+      - P39
+      - P40
+      - P41
+      - P42
+      - P43
+      - P44
+      - P45
+      - P46
+      - P47
+      - P48
+      - P49
+      - P50
+      - P51
+      - P52
+      - P53
+      - P54
+      - P55
+      - P56
+      - P57
+      - P58
+      - P59
+      - P60
+      - P61
+      - P62
+      - P63
+      - P64
+      - P65
+      - P66
+      - P67
+      - P68
+      - P69
+      - P70
+      - P71
+      - P72
+      - P73
+      - P74
+      - P75
+      - P76
+      - P77
+      - P78
+      - P79
+      - P80
+      - P81
+      - P82
+      - P83
+      - P84
+      - P85
+      - P86
+      - P87
+      - P88
+      - P89
+      - P90
+      - P91
+      - P92
+      - P93
+      - P94
+      - P95
+      - P96
+      - P97
+      - P98
+      - P99
+rules:
+    - MATCH,⚖️ 负载均衡-散列-全局
